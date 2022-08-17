@@ -308,9 +308,207 @@ SECCIÓN 14–4 Carga del devanado secundario
 
 ![image](https://user-images.githubusercontent.com/105823435/185252677-dfb00e33-540f-4cb0-8b9f-f05d4c5d5d9b.png)
 
+=Isec/Ipri =Npri/Nsec =1/n=1/3
 
+Isec=(1/n) Ipri=1/3 (100mA)=33.33mA
 
+Isec=Vsec/RL →RL=Vsec/Isec 
 
+RL=20V/33.33mA=600Ω
+
+SECCIÓN 14–5 Carga reflejada 
+
+16.¿Cuál es la resistencia en la carga vista por la fuente en la figura 14-47? 
+
+![image](https://user-images.githubusercontent.com/105823435/185253051-4e93b73a-9f35-4cad-abee-43c27633e62e.png)
+
+=(1/n)^2=(1/n)^2*(680)
+
+vi=(1/n)*(680)=27,2
+
+18.En el circuito de la figura 14-49, encuentre la relación de vueltas requerida para suministrar potencia máxima al altavoz de 4 Ω. 
+
+![image](https://user-images.githubusercontent.com/105823435/185253112-fd70dc8d-d21e-4796-8834-f96b1f91092d.png)
+
+pri=(1/n)^2=(1/n)^2=(Rpri/Rl)=(1/n)
+
+=√(R⁡prⅈ/RL)=1/n=√(16/4)=1/n=2
+
+n=1/2 = 0,5
+
+20.Encuentre la relación de vueltas apropiada en cada una de las posiciones mostradas en la figura 14-50 para transferir potencia máxima a cada carga cuando la resistencia de fuente es de 10 Ω. Especifique el número de vueltas requerido para el devanado secundario si el devanado primario tiene 1000 vueltas. 
+
+![image](https://user-images.githubusercontent.com/105823435/185253339-2b66c158-80b0-4568-9bd4-5d70713584e1.png)
+
+Posición 1
+
+RL=560+220+1k
+
+RL=1780
+
+n=√(RL/Rpri)=√(1780/100)=13.3
+
+Nsec=Nsec1+Nsec2+Nsec3
+
+Nsec=13.3*100
+
+Nsec=1300vueltas
+
+Posición 2
+
+RL=220+1k
+
+RL=1220
+
+n=√(RL/Rpri)=√(1220/10)=11
+
+Nsec=Nsec1+Nsec2+Nsec3
+
+Nsec=11*100
+
+Nsec=1100vueltas
+
+Posición 3
+
+RL=1000
+
+n=√(RL/Rpri)=√(1000/10)=10
+
+Nsec=Nsec1+Nsec2+Nsec3
+
+Nsec=10*100
+
+Nsec=1000vueltas
+
+SECCIÓN 14–7 Características de un transformador no ideal 
+
+22.¿Cuál es la eficiencia del transformador en el problema 21? 
+
+Pl=Ppri-Pperdido
+
+Pl=(100W)-(5.5W)
+
+Pl=94.5 W
+
+% eficiencia=(Psalida/Pentrada)100%
+
+% eficiencia=(94.5W/100W)100%
+
+% eficiencia=94.5%
+
+24.La potencia nominal de cierto transformador es de 1 kVA. El transformador opera a 60 Hz y 120 V de ca. El voltaje secundario es de 600 V.
+
+a) ¿Cuál es la corriente máxima en la carga? 
+
+Il(max)=Pa/Vsec
+
+Il(max)=1kVA/600V
+
+Il(max)=1.67A
+
+b) ¿Cuál es el valor RL más pequeño que puede ser excitado? 
+
+Rl(min)=Vsec/(Il(max))
+
+Rl(min)=600V/1.67A
+
+Rl(min)=359 Ω
+
+c) ¿Cuál es el capacitor más grande que se puede conectar como carga? 
+
+Cmax=1/2πfXc
+
+Cmax=1/(2π(60Hz)(359Ω))
+
+Cmax=7.4μF
+
+26.La potencia nominal de cierto transformador es de 5 kVA, 2400/120 V, a 60 Hz. 
+
+a) ¿Cuál es la relación de vueltas si los 120 V son el voltaje secundario? 
+
+Vpri=2400v
+
+n=Nsec/(Npri )
+
+n=Vsec/(Vpri )
+
+n=120/2400=0.05
+
+b) ¿Cuál es la corriente nominal del secundario si los 2400 V son el voltaje primario? 
+Isec=Pa/Vsec
+
+Isec=5k/120v
+
+Isec=41.7A
+c) ¿Cuál es la corriente nominal del devanado primario si los 2400 V son el voltaje primario? 
+
+Iprim = n*Isec
+
+Iprim = (0.05)*(41.7) = 2.09A
+
+SECCIÓN 14–8 Transformadores con tomas y devanados múltiples 
+
+28.Con los voltajes indicados en la figura 14-52, determine la relación de vueltas de cada sección de toma del devanado secundario al devanado primario.
+
+![image](https://user-images.githubusercontent.com/105823435/185253616-675d12e8-b0bb-402c-9064-b93cddb6450a.png)
+
+1)n=v_sec/v_pri =24/12=2
+
+2)n=v_sec/v_pri =6/12=0.5
+
+3)n=v_sec/v_pri =3/12=0.25
+
+30.En la figura 14-54, cada primario puede acomodar 120 V de ca. ¿Cómo se deberán conectar los primarios para que operen con 240 V de ca? Determine cada voltaje secundario para operación con 240 V. 
+
+![image](https://user-images.githubusercontent.com/105823435/185253669-af16081f-33dd-4f02-9ae2-9a589639074e.png)
+
+100 vueltas
+
+Vsec=(100/2000)240v
+
+Vsec=12v
+
+200 vueltas
+
+Vsec=(200/2000)240v
+
+Vsec=24v
+
+500 vueltas
+
+Vsec=(500/2000)240v
+
+Vsec=60v
+
+1000 vueltas
+
+V_sec=(1000/2000)240v
+
+V_sec=120v
+
+SECCIÓN 14–9 Localización de fallas 
+
+32.Cuando se aplican 120 V de ca a través del devanado primario de un transformador y se verifica el voltaje en el devanado secundario, se leen 0 V. Una investigación más a fondo muestra que no hay corriente en el primario ni en el secundario. Enumere las posibles fallas. ¿Cuál es el siguiente paso en la investigación del problema?
+
+El siguiente paso es reemplazar el transformador porque el devanado primario está abierto.
+
+34.Mientras usted revisa un transformador, se da cuenta que el voltaje secundario es menor de lo que debería ser aunque no es de cero. ¿Cuál es la falla más probable?
+
+Alguno de los devanados segundarios podría estar en cortocircuito, o el voltaje primario inferior al esperado.
+
+Conclusiones 
+
+Se analizó y aplico los métodos expuestos en los capítulos trece y catorce.
+
+Se identificó la construcción y las características básicas de un inductor.
+
+Se determinó cómo se construye un transformador y cómo funciona.
+
+Bibliografía
+
+Perez, J. (9 de Febrero de 2018). Luz Plantas. Obtenido de Luz Plantas: https://www.luzplantas.com/que-es-un-inductor-y-como-funciona/
+
+Ramos, J. L. (23 de Julio de 2016). Como Funciona. Obtenido de Como Funciona : https://como-funciona.co/un-transformador/
 
 
 
