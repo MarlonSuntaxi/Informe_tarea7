@@ -496,7 +496,11 @@ El siguiente paso es reemplazar el transformador porque el devanado primario est
 
 Alguno de los devanados segundarios podría estar en cortocircuito, o el voltaje primario inferior al esperado.
 
-Conclusiones 
+4.-Video
+
+https://youtu.be/IKTxdQGeqAw
+
+5.-Conclusiones 
 
 Se analizó y aplico los métodos expuestos en los capítulos trece y catorce.
 
@@ -504,19 +508,8 @@ Se identificó la construcción y las características básicas de un inductor.
 
 Se determinó cómo se construye un transformador y cómo funciona.
 
-Bibliografía
+6.-Bibliografía
 
 Perez, J. (9 de Febrero de 2018). Luz Plantas. Obtenido de Luz Plantas: https://www.luzplantas.com/que-es-un-inductor-y-como-funciona/
 
 Ramos, J. L. (23 de Julio de 2016). Como Funciona. Obtenido de Como Funciona : https://como-funciona.co/un-transformador/
-
-
-
-
-
-
-
-
-
-
-
